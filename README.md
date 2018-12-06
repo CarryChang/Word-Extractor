@@ -1,6 +1,6 @@
-# 对比TextRank和Tf-idf
+# 对比TextRank和Tf-Idf
 ###
-## 实验对比小数据下Text-rank和tf-idf的效果
+## 实验对比小数据下Text-Rank和Tf-Idf的效果
 ### 
 ## 结果如下：
 1. 使用text-rank：['文件', '词语', '数学公式', '例子', '频率', '母牛', '集里', '总数', '次数', '逆向']

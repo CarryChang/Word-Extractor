@@ -10,7 +10,6 @@ content = open(file_name, 'r',encoding='utf-8').read()
 print('使用text-rank')
 dic = jieba.analyse.textrank(content, topK=10, withWeight=False, allowPOS=('n'))
 print(dic)
-#
 print('使用tf-idf')
 content = open(file_name, 'r',encoding='utf-8').read()
 # 10表示输出的前10个

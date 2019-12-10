@@ -15,5 +15,3 @@ content = open(file_name, 'r',encoding='utf-8').read()
 # 10表示输出的前10个
 tags = jieba.analyse.extract_tags(content, topK=10,withWeight=False,allowPOS=('n'))
 print(tags)
-
-# 结果差不多，基本都可以使用
